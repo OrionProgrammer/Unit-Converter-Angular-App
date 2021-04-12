@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  unitconverterangular:
+    image: unitconverterangular
+    build:
+      context: .
+      dockerfile: ./Dockerfile
